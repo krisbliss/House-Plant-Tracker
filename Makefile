@@ -4,7 +4,7 @@ OBJ = $(patsubst src/%.c, obj/%.o, $(SRC))
 
 run: clean default
 		# check if double create is prevented
-		./$(TARGET) -nf mydb.db -a "testing,123,456"
+		./$(TARGET) -nf mydb.db -a "Monstera,75,65"
 		# ./$(TARGET) -f mydb.db -la "George Michael,1,2"
 		# ./$(TARGET) -f mydb.db -ld "testing"
 		# ./$(TARGET) -f mydb.db -lu "George Michael,20"
